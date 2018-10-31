@@ -7,6 +7,7 @@ public class Alerta {
 	private String produto;
 	private Integer flTipo;
 	private Integer margem;
+	private String categoria;
 	
 	public String getPontoDeVenda() {
 		return pontoDeVenda;
@@ -38,4 +39,11 @@ public class Alerta {
 	public void setMargem(Integer margem){
 		this.margem = margem;
 	}
+	public String getCategoria() {
+		return categoria;
+	}
+	public void setCategoria(String categoria) {
+		this.categoria = categoria;
+	}
+	
 }
